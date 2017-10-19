@@ -28,12 +28,12 @@ sudo apt install -y gnome-tweak-tool compizconfig-settings-manager
 
 sudo apt install -y gnome-themes-standard
 
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
+#sudo add-apt-repository ppa:webupd8team/java
+#sudo apt-get update
 
-sudo apt install -y oracle-java8-installer oracle-java8-set-default
+#sudo apt install -y oracle-java8-installer oracle-java8-set-default
 
-sudo apt install -y maven gradle
+#sudo apt install -y maven gradle
 
 curl -s "https://get.sdkman.io" | zsh
 source "$HOME/.sdkman/bin/sdkman-init.sh"
