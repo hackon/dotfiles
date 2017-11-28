@@ -1,6 +1,8 @@
 #!/bin/bash
 # https://tutorialforlinux.com/2017/05/02/how-to-install-oracle-jdk-8-on-ubuntu-17-04-zesty-32-64bit-linux-easy-guide/
 
+# wget --no-check-certificate -c --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz
+
 read -p "Download jdk8...tar.gz and put in Download..."
 
 tar xvzf ~/Downloads/jdk-8*.tar.gz -C /tmp/
